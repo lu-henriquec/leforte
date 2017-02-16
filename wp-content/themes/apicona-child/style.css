@@ -1,0 +1,40 @@
+/*
+Theme Name:  Apicona Child
+Description: Child theme for the Apicona theme
+Author:      Theme Mount
+Author URI:  http://themeforest.net/user/thememount
+Template:    apicona
+Version:     0.1.0
+Tags:        light, white, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, responsive, retina
+*/
+
+
+/* =Parent theme style.css file
+-------------------------------------------------------------- */
+@import url("../apicona/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.tm-services-box-border.tm-services-box-border-list .wpb_wrapper{
+	border-color: #a7a9ac;
+}
+
+/*.list-item section div[class$="-icons"]{
+	display: none!important;
+}*/
+
+.list-item section {}
+
+.row-header {
+	padding: 10px 0!important;
+}
+
+.row-header .vc_custom_heading {
+	margin: 0;
+}
+
+.row-box-two-columns .tm-sbox-image{
+	float: left;
+	padding-right: 25px;
+}
